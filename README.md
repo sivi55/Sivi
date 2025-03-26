@@ -1,4 +1,4 @@
-# Sivi
+#sivi
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,19 +56,15 @@
   <script src="script.js"></script>
 </body>
 </html>
-
 /* General Styling */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box;}
 
-body {
-  font-family: Arial, sans-serif;
+body { font-family: Arial, sans-serif;
   background-color: #f5f5f5;
-  color: #333;
-}
+  color: #333;}
 
 header {
   background-color: #333;
@@ -140,8 +136,8 @@ footer {
   padding: 20px;
   background-color: #333;
   color: white;
-}
-
+  
+  }
 document.addEventListener('DOMContentLoaded', () => {
   const gridItems = document.querySelectorAll('.grid-item');
   
